@@ -1,4 +1,4 @@
-use arrsac::Arrsac;
+use gazefilter_arrsac::Arrsac;
 use rand::{
     distr::{Distribution, Uniform},
     Rng, SeedableRng,

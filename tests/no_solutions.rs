@@ -1,4 +1,4 @@
-use arrsac::Arrsac;
+use gazefilter_arrsac::Arrsac;
 use rand::SeedableRng;
 use rand_xoshiro::Xoshiro256PlusPlus;
 use sample_consensus::{Consensus, Estimator, Model};

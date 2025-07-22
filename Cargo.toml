@@ -1,11 +1,11 @@
 [package]
-name = "arrsac"
-version = "0.10.0"
-authors = ["Geordon Worley <vadixidav@gmail.com>"]
+name = "gazefilter-arrsac"
+version = "0.1.0"
+authors = ["Geordon Worley <vadixidav@gmail.com>", "Rostyslav Bohomaz <rostyslav.db@gmail.com>"]
 edition = "2021"
 description = "From the paper \"A Comparative Analysis of RANSAC Techniques Leading to Adaptive Real-Time Random Sample Consensus\""
-documentation = "https://docs.rs/arrsac/"
-repository = "https://github.com/rust-cv/arrsac"
+documentation = "https://docs.rs/gazefilter-arrsac/"
+repository = "https://github.com/gazefilter/arrsac"
 keywords = ["ransac", "sample", "consensus"]
 categories = ["algorithms", "science", "science::robotics", "no-std"]
 license = "MIT"
