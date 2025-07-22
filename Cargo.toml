@@ -21,6 +21,3 @@ rand_xoshiro = "0.7"
 
 [profile.dev]
 opt-level = 3
-
-[profile.release]
-debug = true
