@@ -4,7 +4,7 @@ extern crate alloc;
 use core::cmp::Reverse;
 
 use alloc::{vec, vec::Vec};
-use rand_core::RngCore;
+use rand_core::Rng;
 use sample_consensus::{Consensus, Estimator, Model};
 
 /// The ARRSAC algorithm for sample consensus.
@@ -28,7 +28,7 @@ pub struct Arrsac<R> {
 
 impl<R> Arrsac<R>
 where
-    R: RngCore,
+    R: Rng,
 {
     /// `rng` should have the same properties you would want for a Monte Carlo simulation.
     /// It should generate random numbers quickly without having any discernable patterns.
@@ -408,7 +408,7 @@ where
 impl<E, R, Data> Consensus<E, Data> for Arrsac<R>
 where
     E: Estimator<Data>,
-    R: RngCore,
+    R: Rng,
 {
     type Inliers = Vec<usize>;
 

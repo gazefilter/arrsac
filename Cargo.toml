@@ -1,7 +1,6 @@
 [package]
 name = "gazefilter-arrsac"
-version = "0.1.0"
-authors = ["Geordon Worley <vadixidav@gmail.com>", "Rostyslav Bohomaz <rostyslav.db@gmail.com>"]
+version = "0.2.0"
 edition = "2021"
 description = "From the paper \"A Comparative Analysis of RANSAC Techniques Leading to Adaptive Real-Time Random Sample Consensus\""
 documentation = "https://docs.rs/gazefilter-arrsac/"
@@ -13,11 +12,11 @@ readme = "README.md"
 
 [dependencies]
 sample-consensus = "1.0.1"
-rand_core = "0.9"
+rand_core = "0.10"
 
 [dev-dependencies]
-rand = "0.9"
-rand_xoshiro = "0.7"
+rand = "0.10"
+rand_xoshiro = "0.8"
 
 [profile.dev]
 opt-level = 3
